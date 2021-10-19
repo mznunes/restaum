@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Resta Um</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3657492890130694" crossorigin="anonymous"></script>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=500 height=500 style="width: 500px; height: 500px; background: #231F20"></canvas>
+    <script src="Build/PegSolitaire.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/PegSolitaire.data",
+        frameworkUrl: "Build/PegSolitaire.framework.js",
+        codeUrl: "Build/PegSolitaire.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "PegSolitaire",
+        productVersion: "1.0",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+    <h1>Resta Um</h1>
+    <p>Resta Um (Peg solitaire em inglês) é um jogo de tabuleiro para um jogador. O tabuleiro consiste num quadrado com 33 “encaixes” para alocar as peças, que podem ser pinos ou bolas. O jogo consiste em mover uma peça sobre outra, na horizontal ou vertical, eliminando assim a peça “saltada”.</p>
+    <p>Em agosto de 1687 uma edição da revista de literatura francesa, “Mercure Galant”, contém a descrição do tabuleiro, regras, e alguns exemplos de problemas. É a primeira referência impressa do jogo.</p>
+    <p>O jogo padrão preenche todo o tabuleiro, com exceção do espaço central. E o objetivo é esvaziar o tabuleiro através de movimentos válidos, exceto por uma peça, que ficará solitária no tabuleiro, sendo o jogo então finalizado.</p>
+    <p>Um movimento valido é saltar uma peça sobre outra peça adjacente, “pousando” a peça movimentada duas casas ao lado de sua posição inicial, desde que essa casa esteja livre. Depois de feito o movimento retira-se a peça “saltada” do tabuleiro.</p>
+    <p>Uma alternativa ao jogo padrão, é iniciar o jogo com duas casas livres, dessa maneira o objetivo do jogo é terminar com duas peças no tabuleiro, uma em casa espaço que iniciou o jogo livre.</p>
+    <p> Agora que você já conhece o jogo e os movimentos válidos, experimente o jogo acima, mova uma peça sobre a outra e tire do tabuleiro a peça saltada. Será que você consegue deixar apenas uma? Para tentar novamente basta atualizar a página.</p>
+  </body>
+</html>
